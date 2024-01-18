@@ -15,6 +15,9 @@ const config: Config = {
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
+        jost: ['Jost', 'sans-serif'],
+        josefin: ['Josefin Sans', 'sans-serif'],
+        limelight: ['Limelight', 'sans-serif'],
       },
     },
   },
