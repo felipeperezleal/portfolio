@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Projects = () => {
+const Contact = () => {
   return (
     <div className='h-screen flex justify-center'>
       <div className='flex items-center'>
-        <p>My work </p>
+        <p>Contact</p>
       </div>
     </div>
   )
 }
 
-export default Projects
+export default Contact
