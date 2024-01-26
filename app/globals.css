@@ -5,3 +5,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+.bg-black ::selection {
+    background-color: white;
+    color: black;
+  }
