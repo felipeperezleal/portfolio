@@ -1,14 +1,14 @@
-import {Navbar, Home, Contact, Projects, About} from '@/components'
+import { Navbar, Home, Contact, Projects, About } from "@/components";
 
 export default function Page() {
   return (
     <main>
-      <div className='flex-col w-full bg-slate-50'>
+      <div className="flex-col bg-slate-50">
         <Home />
-        <About />      
+        <About />
         <Projects />
         <Contact />
       </div>
     </main>
-  )
+  );
 }
