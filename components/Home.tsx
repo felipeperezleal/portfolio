@@ -27,7 +27,7 @@ const Home = () => {
                 target="_blank"
                 className="text-stone-950 hover:text-stone-700 transition-colors"
               >
-                <FaLinkedin size={30} />
+                <FaLinkedin size={46} />
               </a>
             </div>
             <a
@@ -35,14 +35,14 @@ const Home = () => {
               target="_blank"
               className="text-stone-950 hover:text-stone-700 transition-colors"
             >
-              <FaGithub size={30} />
+              <FaGithub size={46} />
             </a>
           </div>
         </div>
       </div>
       <div className="flex h-1/6 justify-center items-center">
         <a href="">
-          <IoIosArrowDown size={50} />
+          <IoIosArrowDown size={46} />
         </a>
       </div>
     </div>

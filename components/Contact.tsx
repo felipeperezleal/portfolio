@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { IoCopy, IoSend } from "react-icons/io5";
+import { IoSend } from "react-icons/io5";
 
 const Contact = () => {
   const copyToClipboard = async () => {
@@ -37,7 +37,7 @@ const Contact = () => {
           </a>
         </div>
         <div className="flex flex-col items-center space-y-12">
-          <p className="text-white text-2xl md:text-4xl">{"Let's connect!"}</p>
+          <p className="text-white text-2xl md:text-4xl">{"Connect with me:"}</p>
           <div className="flex items-center justify-evenly space-x-32">
             <a
               href="https://www.linkedin.com/in/felipeperezleal/"
@@ -64,10 +64,11 @@ const Contact = () => {
         </div>
         <div>
           <hr className="border-t border-white pb-2 md:pb-5" />
-          <div className="flex items-center justify-center">
+          <div className="flex flex-col items-center justify-center">
             <p className="text-white">
-              Website design and development by Felipe Pérez Leal © 2024
+              Website design and development by Felipe Pérez Leal
             </p>
+            <p className="text-white">All rights reserved © 2024</p>
           </div>
         </div>
       </div>
