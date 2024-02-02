@@ -16,8 +16,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-screen bg-stone-950 px-20 py-6 md:px-64 md:py-20">
-      <div className="flex flex-col justify-around h-full">
+    <div className="h-screen bg-stone-950 px-10 py-10 md:px-32 md:py-32 ">
+      <div className="flex flex-col justify-between h-full">
         <p className="text-4xl tracking-tight font-medium text-white text-center md:text-8xl">
           {"Let's build something great together!"}
         </p>
@@ -37,7 +37,7 @@ const Contact = () => {
           </a>
         </div>
         <div className="flex flex-col items-center space-y-12">
-          <p className="text-white text-2xl md:text-4xl">{"Connect with me:"}</p>
+          <p className="text-white text-xl md:text-4xl">{"Connect with me:"}</p>
           <div className="flex items-center justify-evenly space-x-10 md:space-x-32">
             <a
               href="https://www.linkedin.com/in/felipeperezleal/"
@@ -65,10 +65,10 @@ const Contact = () => {
         <div>
           <hr className="border-t border-white pb-2 md:pb-5" />
           <div className="flex flex-col items-center justify-center">
-            <p className="text-white text-center">
+            <p className="text-white text-center text-xs md:text-lg">
               Website design and development by Felipe Pérez Leal
             </p>
-            <p className="text-white text-center">All rights reserved © 2024</p>
+            <p className="text-white text-center text-xs md:text-lg">All rights reserved © 2024</p>
           </div>
         </div>
       </div>

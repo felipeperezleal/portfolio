@@ -5,12 +5,12 @@ import { IoIosArrowDown } from "react-icons/io";
 const Home = () => {
   return (
     <div className="h-screen flex flex-col items-center justify-between">
-      <div className="h-full w-full flex flex-col justify-evenly px-20 py-6 md:px-64 md:py-20">
+      <div className="h-full w-full flex flex-col justify-evenly px-10 md:px-32 md:py-32 ">
         <div>
-          <p className="text-5xl tracking-tight font-medium md:text-8xl">
+          <p className="text-4xl tracking-tight font-medium md:text-8xl">
             {"Hello, I'm Felipe Pérez Leal."}
           </p>
-          <p className="text-xl tracking-widest py-10 md:text-4xl">
+          <p className="text-lg tracking-widest py-10 md:text-3xl">
             SOFTWARE DEVELOPER
           </p>
         </div>

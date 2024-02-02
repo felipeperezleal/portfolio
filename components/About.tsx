@@ -3,22 +3,22 @@ import { FiArrowDownRight } from "react-icons/fi";
 
 const About = () => {
   return (
-    <div className="h-fit bg-stone-950 rounded-t-3xl px-20 py-10 md:px-64 md:py-32 space-y-20">
+    <div className="h-fit bg-stone-950 rounded-t-3xl px-10 py-10 md:px-32 md:py-32 space-y-20">
       <div className="space-y-10">
-        <p className="text-white text-5xl font-medium tracking-tight md:text-8xl">
+        <p className="text-white text-4xl font-medium tracking-tight md:text-8xl">
           About me
         </p>
-        <p className="text-white text-2xl md:text-4xl">
+        <p className="text-white text-xl md:text-4xl">
           {
             "Hola! I'm Felipe, a passionate software developer based in Bogotá, Colombia. I find joy in crafting digital experiences that not only meet technical excellence but also resonate with users on a profound level."
           }
         </p>
       </div>
       <div className="space-y-10">
-        <p className="text-white text-5xl font-medium tracking-tight md:text-8xl">
+        <p className="text-white text-4xl font-medium tracking-tight md:text-8xl">
           What I do
         </p>
-        <p className="text-white text-2xl md:text-4xl">
+        <p className="text-white text-xl md:text-4xl">
           {
             "Beyond code, I bring creativity, adaptability, and a collaborative spirit to every project, making each endeavor an exciting opportunity to transform ideas into reality."
           }
