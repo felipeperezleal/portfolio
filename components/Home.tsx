@@ -15,13 +15,13 @@ const Home = () => {
           </p>
         </div>
         <div className="flex flex-col md:items-center md:flex-row">
-          <button className="text-xs rounded-full border py-2 px-4 text-stone-950 border-stone-950 hover:bg-stone-950 hover:text-white transition-colors md:text-lg">
+          <button className="text-base rounded-full border py-2 px-4 text-stone-950 border-stone-950 hover:bg-stone-950 hover:text-white transition-colors md:text-lg">
             <a href="/cv.pdf" target="_blank">
               Get my resume
             </a>
           </button>
           <div className="flex items-center justify-evenly md:flex-none md:items-baseline md:justify-normal">
-            <div className="py-4 md:px-11 md:py-0">
+            <div className="py-12 md:px-11 md:py-0">
               <a
                 href="https://www.linkedin.com/in/felipeperezleal/"
                 target="_blank"
