@@ -34,7 +34,7 @@ const Contact = () => {
               <input
                 type="email"
                 value={"seperezl@unal.edu.co"}
-                className="border bg-transparent border-white rounded-lg text-white w-full px-4 text-xl md:text-3xl"
+                className="border bg-transparent border-white rounded-lg text-white w-full px-4 text-xl md:text-3xl md:w-3/4"
               />
               <button
                 type="button"
