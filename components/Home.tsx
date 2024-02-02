@@ -25,11 +25,16 @@ const Home = () => {
               <a
                 href="https://www.linkedin.com/in/felipeperezleal/"
                 target="_blank"
+                className="text-stone-950 hover:text-stone-700 transition-colors"
               >
                 <FaLinkedin size={30} />
               </a>
             </div>
-            <a href="https://www.github.com/felipeperezleal" target="_blank">
+            <a
+              href="https://www.github.com/felipeperezleal"
+              target="_blank"
+              className="text-stone-950 hover:text-stone-700 transition-colors"
+            >
               <FaGithub size={30} />
             </a>
           </div>
