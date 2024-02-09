@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
@@ -41,9 +42,14 @@ const Home = () => {
         </div>
       </div>
       <div className="flex h-1/6 justify-center items-center">
-        <a href="">
+        <button
+          onClick={() => {
+            const element = document.getElementById("about");
+            element?.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
           <IoIosArrowDown size={46} />
-        </a>
+        </button>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { FiArrowDownRight } from "react-icons/fi";
 
 const About = () => {
   return (
-    <div className="h-fit bg-stone-950 rounded-t-3xl px-10 py-10 md:px-32 md:py-32 space-y-20">
+    <div id="about" className="h-fit bg-stone-950 rounded-t-3xl px-10 py-10 md:px-32 md:py-32 space-y-20">
       <div className="space-y-10">
         <p className="text-white text-4xl font-medium tracking-tight md:text-8xl">
           About me
