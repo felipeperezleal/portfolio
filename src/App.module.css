@@ -1,0 +1,8 @@
+@import "./vars.css";
+
+.App {
+    background-color: var(--color-bg);
+    max-width: 1140px;
+    width: 90%;
+    margin: auto;
+}

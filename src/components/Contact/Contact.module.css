@@ -1,0 +1,19 @@
+@import "../../vars.css";
+
+.contact {
+    margin: 12.75rem 0 2.25rem 0;
+}
+
+.social {
+    margin-top: 3.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contactFooter {
+    margin-top: 12.5rem;
+    text-align: center;
+}

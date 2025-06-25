@@ -1,0 +1,14 @@
+@import "../../vars.css";
+
+.about {
+    margin: 12.75rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.375rem;
+}
+
+.aboutBio {
+    display: grid;
+    gap: 1.5rem;
+}

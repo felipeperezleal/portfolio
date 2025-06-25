@@ -1,0 +1,169 @@
+:root {
+    /* Colors */
+    --color-bg: #0d0d0d;
+    --color-text: #ffffff;
+    --color-primary: #00ABE7;
+    --color-secondary: #FFBE0B;
+    --color-tertiary: #EA7AF4;
+
+    /* Default background */
+    background: var(--color-bg);
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input {
+    outline: none;
+}
+
+::selection {
+    background-color: var(--color-text);
+    color: var(--color-bg);
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Display and text styles */
+.heading1,
+.heading2,
+.heading3 {
+    color: var(--color-text);
+    font-weight: 600;
+    text-wrap: balance;
+}
+
+.heading1 {
+    font-size: 3rem;
+}
+
+.heading2 {
+    font-size: 2.25rem;
+}
+
+.heading3 {
+    font-size: 1.5rem;
+}
+
+.textNormal {
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.textNormal {
+    font-size: 1.3rem;
+}
+
+/* Modifiers */
+.heading1>.primary,
+.heading2>.primary,
+.heading3>.primary {
+    color: var(--color-primary);
+}
+
+.heading1>.secondary,
+.heading2>.secondary,
+.heading3>.secondary {
+    color: var(--color-secondary);
+}
+
+.heading1>.tertiary,
+.heading2>.tertiary,
+.heading3>.tertiary {
+    color: var(--color-tertiary);
+}
+
+/* Button */
+.button {
+    padding: 0.3125rem;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-text);
+    border-radius: 0.5rem 0.5rem 0 0;
+    transition: .2s all ease;
+    cursor: pointer;
+}
+
+.buttonText {
+    margin-left: 1rem;
+}
+
+.buttonBoxIcon {
+    width: 3rem;
+    height: 3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text);
+    font-size: 1.5rem;
+}
+
+.button:hover {
+    background: var(--color-text);
+    color: var(--color-bg);
+}
+
+.button:hover .buttonBoxIcon {
+    color: var(--color-bg);
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+
+    .heading2 {
+        text-align: center;
+    }
+
+    .textNormal {
+        text-align: center;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    :root {
+        font-size: 12px;
+    }
+
+    .heading1 {
+        font-size: 2.25rem;
+    }
+
+    .heading2 {
+        font-size: 1.5rem;
+    }
+
+    .heading3 {
+        font-size: 1.125rem;
+    }
+}
