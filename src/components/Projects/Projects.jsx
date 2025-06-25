@@ -18,7 +18,7 @@ export const Projects = () => {
             <figure className={styles.cardPicture}>
               <img src={Tripster} alt="Tripster"/>
             </figure>
-            <h3 className={styles.heading3}><a href="#">Tripster</a></h3>
+            <h3 className={styles.heading3}><a href="https://github.com/felipeperezleal/routes_ms" target='_blank'>Tripster</a></h3>
             <ul className={styles.cardSkills}>
               <li className={styles.cardTag}>Go</li>
               <li className={styles.cardTag}>Flutter</li>
@@ -30,7 +30,7 @@ export const Projects = () => {
               <figure className={styles.cardPicture}>
                   <img src={Artisticall} alt="Artisticall"/>
               </figure>
-              <h3 className={styles.heading3}><a href="#">Artisticall</a></h3>
+              <h3 className={styles.heading3}><a href="https://github.com/Artisticall/artisticall" target='_blank'>Artisticall</a></h3>
               <ul className={styles.cardSkills}>
                   <li className={styles.cardTag}>Kotlin</li>
                   <li className={styles.cardTag}>Firebase</li>
@@ -41,9 +41,10 @@ export const Projects = () => {
             <figure className={styles.cardPicture}>
               <img src={NLP} alt="NLP for Image Description"/>
             </figure>
-            <h3 className={styles.heading3}><a href="#">NLP for Image Description</a></h3>
+            <h3 className={styles.heading3}><a href="https://github.com/felipeperezleal/nlp-image-description" target='_blank'>NLP for Image Description</a></h3>
             <ul className={styles.cardSkills}>
               <li className={styles.cardTag}>Python</li>
+              <li className={styles.cardTag}>Pandas</li>
               <li className={styles.cardTag}>spaCy</li>
               <li className={styles.cardTag}>NLP</li>
               <li className={styles.cardTag}>BART Model</li>
@@ -53,7 +54,7 @@ export const Projects = () => {
               <figure className={styles.cardPicture}>
                   <img src={Alumni} alt="Data Engineering Pipeline for Alumni Data"/>
               </figure>
-              <h3 className={styles.heading3}><a href="#">Data Engineering Pipeline for Alumni Data</a></h3>
+              <h3 className={styles.heading3}><a href="https://github.com/scassiano/bda_project_ir" target='_blank'>Data Engineering Pipeline for Alumni Data</a></h3>
               <ul className={styles.cardSkills}>
                   <li className={styles.cardTag}>Python</li>
                   <li className={styles.cardTag}>MongoDB</li>
@@ -66,9 +67,11 @@ export const Projects = () => {
               <figure className={styles.cardPicture}>
                   <img src={SaberPro} alt="Saber Pro Model"/>
               </figure>
-              <h3 className={styles.heading3}><a href="#">Pruebas Saber Pro ML Model</a></h3>
+              <h3 className={styles.heading3}><a href="https://github.com/felipeperezleal/saberpro-prediction-model" target='_blank'>Pruebas Saber Pro Prediction Model</a></h3>
               <ul className={styles.cardSkills}>
                   <li className={styles.cardTag}>Python</li>
+                  <li className={styles.cardTag}>Pandas</li>
+                  <li className={styles.cardTag}>Numpy</li>
                   <li className={styles.cardTag}>Deep Learning</li>
                   <li className={styles.cardTag}>scikit-learn</li>
               </ul>
@@ -77,7 +80,7 @@ export const Projects = () => {
               <figure className={styles.cardPicture}>
                   <img src={comprara} alt="Comprara"/>
               </figure>
-              <h3 className={styles.heading3}><a href="#">comprara!</a></h3>
+              <h3 className={styles.heading3}><a href="https://github.com/felipeperezleal/comprara" target='_blank'>comprara!</a></h3>
               <ul className={styles.cardSkills}>
                   <li className={styles.cardTag}>HTML</li>
                   <li className={styles.cardTag}>CSS</li>
