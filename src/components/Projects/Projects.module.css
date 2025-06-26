@@ -40,3 +40,29 @@
     background: var(--color-text);
     cursor: pointer;
 }
+
+.projects .heading3 a {
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-tertiary));
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: var(--color-text);
+    animation: rainbow 1.5s ease-in-out infinite;
+    transition: color .2s ease-in-out;
+}
+
+.projects .heading3 a:hover {
+    color: transparent;
+}
+
+@keyframes rainbow { 
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}
