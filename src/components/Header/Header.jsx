@@ -7,8 +7,8 @@ export const Header = () => {
     <header>
       <nav className={styles.navbar}>
         <div>
-          <a className={styles.navbarLogo} href="/" role="link">
-            <img src="#" className={styles.textNormal} alt="Felipe Pérez Leal" />
+          <a className={styles.textNormal} href='#'>
+            Felipe Pérez Leal
           </a>
         </div>
         <a href="#contact" className={styles.textNormal}>Contact</a>
